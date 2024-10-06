@@ -1,0 +1,12 @@
+   body{
+    background-color: black;
+   } 
+   img{
+    display: block;
+    width:400px;
+    margin:0 auto;
+    transition: 0.3s;
+    border: 19px solid white;
+    height:450px;
+    margin:150px 0px 0px 540px;
+}

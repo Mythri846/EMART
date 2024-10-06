@@ -1,0 +1,75 @@
+body{
+    background-color: white;
+}
+.option-btn{
+    background-color: green;
+}
+.delete-btn{
+    background-color: orangered;
+}
+.btn{
+    background-color: blue;
+}
+.btn,
+.delete-btn,
+.option-btn{
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    padding:.9rem 3rem;
+    text-transform: capitalize;
+    flex-direction: column;
+}
+.container{
+    padding:0 20px;
+    margin:0 auto;
+    max-width: 1200px;
+    padding-bottom: 70px;
+}
+.user-profile{
+    padding:20px;
+    text-align: center;
+    border:black;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 500px;
+    margin-top: 160px;
+    padding-bottom: 40px;
+}
+.container .user-profile p{
+    margin-bottom:15px;
+    font-size: 25px;
+    color:black;
+}
+.container .user-profile p span{
+    color:purple;
+}
+.container .user-profile .flex{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:15px;
+
+}
+.button
+{
+  position: absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: green;
+  color: white;
+  font-size: 30px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.background .button:hover
+{
+  background:var(--black);
+}

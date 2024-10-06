@@ -1,0 +1,101 @@
+body{
+    background-color: whitesmoke;
+}
+.nav{
+   background-image: url("grocery.jpeg");
+   background-size: 1850px;
+   background-attachment: 550px;
+   background-repeat: no-repeat;
+}
+.imgs img{
+    width: 80px;
+    margin-top: 29px;
+    border-radius:100%;
+    margin-right: 109px;
+    margin-left: 0.2px;
+    
+}
+
+.imgs{
+    margin-top: 30px;
+}
+ul{
+list-style-type: none;
+overflow: hidden;
+margin: 0px;
+padding: 0px;
+
+}
+li{
+float: left;
+padding: 10px 21.1px;
+font-size: 20px;
+margin-right: 63.8px;
+color:white;
+}
+.heading{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size:25px;
+    color: var(--black);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+}
+.heading span{
+    background-color: green;
+    color: white;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+}
+.Features .box-container{
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap:5px;
+}
+.Features .box-container .box{
+    border: 2px solid green;
+    padding: 50px 5px 15px 70px;
+}
+.Features .box-containers{
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap:5px;
+}
+.Features .box-containers .boxs{
+    border: 2px solid green;
+    padding: 40px 5px 15px 70px;
+    margin-top: 30px;
+}
+.Features .containers{
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap:15px;
+}
+.Features .containers .grid{
+    border: 2px solid green;
+    padding:40px 5px 15px 70px ;
+    margin-top: 30px;
+}
+.Features .box:hover{
+    background:green;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+}
+.Features .grid:hover{
+    background-color: green;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+}
+.Features .boxs:hover{
+    background-color: green;
+    color:white;
+    transform: scale(1.1);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+}
